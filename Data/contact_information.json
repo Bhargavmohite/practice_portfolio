@@ -1,0 +1,28 @@
+{
+  "email": {
+    "label": "Email Me",
+    "value": "hello@yourportfolio.com"
+  },
+  "phone": {
+    "label": "Call Me",
+    "value": "+1 (555) 000-0000"
+  },
+  "location": {
+    "label": "Location",
+    "value": "San Francisco, CA"
+  },
+  "socials": [
+    {
+      "icon": "🌐",
+      "link": "#"
+    },
+    {
+      "icon": "🐦",
+      "link": "#"
+    },
+    {
+      "icon": "💼",
+      "link": "#"
+    }
+  ]
+}

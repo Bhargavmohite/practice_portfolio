@@ -1,0 +1,17 @@
+[
+  {
+    "title": "E-commerce Platform",
+    "desc": "Next.js, Stripe, and PostgreSQL integration.",
+    "tags": ["React", "Node.js"]
+  },
+  {
+    "title": "SaaS Dashboard",
+    "desc": "Real-time data visualization and user management.",
+    "tags": ["TypeScript", "Redis"]
+  },
+  {
+    "title": "Social Network",
+    "desc": "Scalable architecture for millions of connections.",
+    "tags": ["GraphQL", "AWS"]
+  }
+]

@@ -1,9 +1,10 @@
 import React from 'react'
+import { Profile_Card } from './Profile_Card'
 
 function page() {
   return (
-    <div>This is our about page</div>
-  )
+      <Profile_Card />
+  );
 }
 
 export default page

@@ -1,0 +1,44 @@
+{
+  "name": "Alex Rivera",
+  "role": "Senior Product Designer & Frontend Developer",
+  "description": "I craft digital experiences that blend functional minimalism with purposeful interaction. With over 8 years of experience, I help startups scale their design systems and transform complex ideas into intuitive products.",
+  "avatar": "https://randomuser.me/api/portraits/men/32.jpg",
+
+  "skills": ["UI/UX Design", "React", "TypeScript", "Design Systems", "AWS"],
+
+  "experience": [
+    {
+      "title": "Senior Product Designer",
+      "company": "TechFlow Inc.",
+      "duration": "2021 — Present"
+    },
+    {
+      "title": "Lead Frontend Developer",
+      "company": "CreativeStudio",
+      "duration": "2018 — 2021"
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "B.Sc in Computer Science",
+      "institution": "University of California",
+      "duration": "2014 — 2018"
+    }
+  ],
+
+  "socials": [
+    {
+      "icon": "🌐",
+      "link": "#"
+    },
+    {
+      "icon": "🔗",
+      "link": "#"
+    },
+    {
+      "icon": "✉️",
+      "link": "#"
+    }
+  ]
+}

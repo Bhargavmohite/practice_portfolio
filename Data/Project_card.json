@@ -1,0 +1,44 @@
+[
+  {
+    "title": "E-commerce Dashboard",
+    "description": "A high-performance dashboard for managing large-scale inventory with real-time analytics.",
+    "image": "https://randomuser.me/api/portraits/men/32.jpg",
+    "tags": ["React", "Tailwind"],
+    "demo": "#"
+  },
+  {
+    "title": "NeuralPath AI",
+    "description": "Interface for interacting with LLMs featuring markdown support and vector DB integration.",
+    "image": "https://via.placeholder.com/400x250",
+    "tags": ["Next.js", "Python"],
+    "demo": "#"
+  },
+  {
+    "title": "CryptoPulse",
+    "description": "Secure mobile wallet and trading platform for digital assets.",
+    "image": "https://via.placeholder.com/400x250",
+    "tags": ["Flutter", "Solidity"],
+    "demo": "#"
+  },
+  {
+    "title": "Zenith Health",
+    "description": "Health tracking app integrating wearable device insights.",
+    "image": "https://via.placeholder.com/400x250",
+    "tags": ["React Native", "GraphQL"],
+    "demo": "#"
+  },
+  {
+    "title": "Sentinel Shield",
+    "description": "Cybersecurity tool detecting anomalies using ML.",
+    "image": "https://via.placeholder.com/400x250",
+    "tags": ["Go", "Redis"],
+    "demo": "#"
+  },
+  {
+    "title": "Terra Search",
+    "description": "Real estate search engine with AI-powered recommendations.",
+    "image": "https://via.placeholder.com/400x250",
+    "tags": ["Vue", "PostgreSQL"],
+    "demo": "#"
+  }
+]
