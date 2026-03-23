@@ -1,11 +1,14 @@
-'use client'
+"use client";
 import Link from "next/link";
+
 import React, { useState } from "react";
 
-const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+const Admin_navbar = () => {
 
-  return (
+const [menuOpen, setMenuOpen] = useState(false);
+
+return (
+  <>
     <nav className='sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md'>
       <div className='max-w-7xl mx-auto px-6 h-20 flex items-center justify-between'>
         {/* Logo */}
@@ -18,35 +21,28 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className='hidden md:flex items-center gap-10'>
           <Link
-            href='/'
+            href='/admin/'
             className='text-sm font-medium hover:text-blue-500 transition-colors'
           >
             Home
           </Link>
           <Link
-            href='/about'
+            href='/admin/about'
             className='text-sm font-medium hover:text-blue-500 transition-colors'
           >
             About
           </Link>
           <Link
-            href='/project'
+            href='/admin/projects'
             className='text-sm font-medium hover:text-blue-500 transition-colors'
           >
             Projects
           </Link>
           <Link
-            href='/contact'
+            href='/admin/contact'
             className='text-sm font-medium hover:text-blue-500 transition-colors'
           >
             Contact
-          </Link>
-
-          <Link
-            href='/admin/page'
-            className='text-sm font-medium hover:text-blue-500 transition-colors'
-          >
-            Admin
           </Link>
         </div>
 
@@ -95,7 +91,8 @@ const Navbar = () => {
         </div>
       )}
     </nav>
-  );
+  </>
+);
 };
 
-export default Navbar;
+export default Admin_navbar;

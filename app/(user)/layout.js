@@ -1,15 +1,13 @@
-import Navbar from "@/components/Navbar";
-import "./globals.css";
 import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
-export default function RootLayout({ children }) {
+export default function UserLayout({ children }) {
   return (
-    <html lang="en">
-      <body>
-        <Navbar/>
-        {children}
-        <Footer/>
-      </body>
-    </html>
+    <div>
+      {/* Admin Navbar / Sidebar */}
+      <Navbar/>
+      {children}
+      <Footer/>
+    </div>
   );
 }

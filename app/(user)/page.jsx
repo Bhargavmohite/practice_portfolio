@@ -42,8 +42,8 @@ function page() {
               className='rounded-2xl shadow-lg'
             />
 
-            <div className='absolute bottom-[-20px] left-1/2 -translate-x-1/2 bg-[#0a192f] px-4 py-2 rounded-xl border border-gray-600 text-sm'>
-              ⭐ 5+ Years Experience
+            <div className='absolute bottom-[-20px] left-1/2 -translate-x-1/2 bg-[#0a192f] px-4 py-2 rounded-xl border border-gray-600 text-sm  grid grid-rows-2 '>
+              <div className='loader'></div> 5+ Years Experience
             </div>
           </div>
         </div>
